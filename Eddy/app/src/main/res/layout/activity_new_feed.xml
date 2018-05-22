@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_back_newID"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_back2"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_title"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/margin_top"
+            android:textAlignment="center"
+            android:hint="Titulo Notícia"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_data"
+            android:layout_marginTop="@dimen/margin_top"
+            android:textAlignment="center"
+            android:hint="Data"
+            android:textSize="@dimen/textSize"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_descricao"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/margin_top"
+            android:textAlignment="center"
+            android:hint="Descriçâo"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_criarNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="Criar Nota"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"/>
+</RelativeLayout>

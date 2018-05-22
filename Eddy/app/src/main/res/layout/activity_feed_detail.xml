@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_backID"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_back2"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_feed_titleID"
+            android:textSize="35sp"
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            android:text="Titulo Noticia"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/text_feed_dataID"
+            android:layout_marginTop="50dp"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:text="Data"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:id="@+id/text_feed_descricaoID"
+            android:layout_marginTop="40dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Descriçao"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "460619997267",
+    "firebase_url": "https://eddy-a5da0.firebaseio.com",
+    "project_id": "eddy-a5da0",
+    "storage_bucket": "eddy-a5da0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460619997267:android:bb742f56f6bfef53",
+        "android_client_info": {
+          "package_name": "com.pedrolaviola.user.eddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460619997267-fm8uf08plbem3b7ep9dn1o6le1sqg2q6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pedrolaviola.user.eddy",
+            "certificate_hash": "e3b225bdcb42f64c0eb805dbb344d475b6101301"
+          }
+        },
+        {
+          "client_id": "460619997267-7ej6rb53t9skm716rt1hj9r76qo9ldcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsVJsayplPUQjSsoD8PglqD2wZgG5kEGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460619997267-7ej6rb53t9skm716rt1hj9r76qo9ldcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

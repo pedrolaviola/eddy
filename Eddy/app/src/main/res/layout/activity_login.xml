@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pedrolaviola.user.eddy.LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/title_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_top"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="@dimen/margin_startEnd"
+        android:layout_marginEnd="@dimen/margin_startEnd"
+        android:text="@string/login_text"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/edt_login_emailID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_startEnd"
+        android:layout_marginStart="@dimen/margin_startEnd"
+        android:layout_marginTop="25dp"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="8dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/hint_email"/>
+    <EditText
+        android:id="@+id/edt_login_passwordID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_startEnd"
+        android:layout_marginStart="@dimen/margin_startEnd"
+        android:layout_marginTop="25dp"
+        android:drawableStart="@drawable/ic_cadeado"
+        android:drawablePadding="8dp"
+        android:inputType="textPassword"
+        android:hint="@string/hint_password"/>
+    <Button
+        android:id="@+id/btn_loginID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_marginEnd="@dimen/margin_startEnd"
+        android:layout_marginStart="@dimen/margin_startEnd"
+        android:layout_marginTop="40dp"
+        android:text="@string/text_btn_entrar"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/txt_SignupID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txt_criar_conta"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/colorAccent"/>
+
+
+
+</LinearLayout>

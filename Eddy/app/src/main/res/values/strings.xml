@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Eddy</string>
+    <string name="login_text">Bem Vindo</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Senha</string>
+    <string name="text_btn_entrar">Entrar</string>
+    <string name="txt_title_criation">Crie sua conta</string>
+    <string name="txt_create_nome">Nome</string>
+    <string name="txt_create_senha">Senha</string>
+    <string name="txt_create_confirmar">Confirmar Senha</string>
+    <string name="txt_btn_create">Registrar</string>
+    <string name="id_login">Já sou cadastrado</string>
+    <string name="txt_criar_conta">Criar Conta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_insert_codEd">Insira o código do Edifício</string>
+    <string name="txt_num_apto">Entre com o número do seu apartamento</string>
+    <string name="txt_btn_salvar">Salvar</string>
+    <string name="txt_name">Seu nome</string>
+    <string name="txt_reuniao">Nenhuma reunião marcada</string>
+    <string name="txt_desconect">Desconectar</string>
+</resources>

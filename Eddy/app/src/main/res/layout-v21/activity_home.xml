@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pedrolaviola.user.eddy.HomeActivity"
+    android:id="@+id/empty_layout"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/myToolbarID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+            android:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <TextView
+            android:id="@+id/txt_reuniaoID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_reuniao"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/colorPrimaryDark"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/myImageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@mipmap/icon_ball"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/txt_dataReuniaoID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/myImageView"
+                android:layout_alignTop="@+id/myImageView"
+                android:layout_alignEnd="@+id/myImageView"
+                android:layout_alignBottom="@+id/myImageView"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/feed_listViewID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="@dimen/margin_startEnd"
+            android:layout_marginStart="@dimen/margin_startEnd"
+            tools:listitem="@layout/item_list" />
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_addID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:backgroundTint="@color/colorPrimaryDark"
+        android:src="@mipmap/ic_add2"/>
+
+</RelativeLayout>
